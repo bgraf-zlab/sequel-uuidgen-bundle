@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Benjamin Graf</string>
+	<key>category</key>
+	<string></string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+# echo -n removes the trailing newline from uuidgen, tr makes the string all lowercase
+echo -n `uuidgen` | tr '[:upper:]' '[:lower:]'</string>
+	<key>contact</key>
+	<string>q@oraavtens.qr</string>
+	<key>description</key>
+	<string>Generates a uuid string in the form „%08X-%04X-%04X-%04X-%012X“ (all lowercase). Uses the uuidgen command line tool.</string>
+	<key>name</key>
+	<string>UUID-Gen</string>
+	<key>output</key>
+	<string>insertastext</string>
+	<key>scope</key>
+	<string>inputfield</string>
+	<key>uuid</key>
+	<string>B43E482D-678B-4F10-ACA1-5032EBB1E178</string>
+</dict>
+</plist>
