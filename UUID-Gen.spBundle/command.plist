@@ -12,7 +12,7 @@
 # echo -n removes the trailing newline from uuidgen, tr makes the string all lowercase
 echo -n `uuidgen` | tr '[:upper:]' '[:lower:]'</string>
 	<key>contact</key>
-	<string>q@oraavtens.qr</string>
+	<string>d@bennigraf.de</string>
 	<key>description</key>
 	<string>Generates a uuid string in the form „%08X-%04X-%04X-%04X-%012X“ (all lowercase). Uses the uuidgen command line tool.</string>
 	<key>name</key>
